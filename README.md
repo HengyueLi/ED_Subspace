@@ -2,7 +2,7 @@
 ## Requirements
 Fortran(2003) + lapack
 ## Introduction
-For a fermion (spin 1/2) system, we can study it by Exact Diagonalization (ED) of its Hamiltonian. After that, all the physical quantities can be calculated by the wave functions. This module provides methods to do this by the Hoseholder method (full space diagonalization). We can consider the symmetry of the system thus separate the Hamiltonian into different blocks(subspaces). We can study each subspace by this module. Compare with [LanczosSubspace](https://github.com/HengyueLi/LanczosSubspace) object, this object can be used to study the finite temperature system.
+For a fermion (spin 1/2) system, we can study it by Exact Diagonalization (ED) of its Hamiltonian. After that, all the physical quantities can be calculated by the wave functions. This module provides methods to do this by the Householder method (full space diagonalization). We can consider the symmetry of the system thus separate the Hamiltonian into different blocks(subspaces). We can study each subspace by this module. Compare with [LanczosSubspace](https://github.com/HengyueLi/LanczosSubspace) object, this object can be used to study the cluster system at finite temperature.
 ## Usage
 Follow the steps in /Install.
 
